@@ -19,10 +19,10 @@ Note: The order in which mods are applied is not set, so if multiple mods alter 
 This is only necessary for mods like the iDOLM@STER emblems/sleeves mod that require files from the Japanese version of the game. Most mods will not require you to do this.
 
 1. Change the game language to Japanese from Steam's properties window.
-2. Start the game to download data. (Not 100% sure this is necessary.)
+2. Start the game and click past the title screen to download data. Close the game when it's done.
 3. Run the executable and use the first option. This will copy files from the Shadowverse installation to the respective mods' folders.
 4. Change the game language back to English.
-5. Start the game to download data. (Again, not sure this is necessary.)
+5. Start the game again and click past the title screen to re-download data. Close the game when it's done.
 
 ## Mods
 
