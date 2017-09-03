@@ -1,0 +1,19 @@
+{
+	"name": "Isabelle Uncensored",
+	"version": "1.0.0",
+	"description": "Uncensor Isabelle's glorious double Ds",
+	"copy_files": {
+		"a": [
+			"card_sleeve_3000033.unity3d",
+			"story_pf_ch_isabelle.unity3d",
+			"ui_btn_deck_03.unity3d",
+			"ui_class_03_base_lose.unity3d",
+			"ui_class_03_base_win.unity3d",
+			"ui_class_03_profile.unity3d",
+			"ui_class_03_story.unity3d",
+			"ui_class_3.unity3d",
+			"ui_class_select_thumbnail_03.unity3d",
+			"ui_class_skin_03.unity3d"
+		]
+	}
+}

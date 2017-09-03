@@ -1,0 +1,11 @@
+{
+	"name": "iDOLM@STER Emblems and Sleeves",
+	"version": "1.0.0",
+	"description": "See the iDOLM@STER emblems and sleeves from the Japanese promotion a while back",
+	"copy_files": {
+		"a": [
+			"master_emblem_data.unity3d",
+			"master_sleeve_master.unity3d"
+		]
+	}
+}
