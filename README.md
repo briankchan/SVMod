@@ -9,15 +9,20 @@ How to use this tool to install Shadowverse mods:
 1. Download the executable.
 2. Create a folder named "Mods" in the same location as the execuable.
 3. Download and extract mods into the "Mods" folder. (Each mod should be a folder that contains a "mod.json" file; make sure you aren't extracting a folder containing the mod.)
-4. If using a mod that requires files from the Japanese version of the game (e.g. iDOLM@STER emblems/sleeves mod):
-	1. Change the game language to Japanese from Steam's properties window.
-	2. Start the game to download data. (Not 100% sure this is necessary.)
-	3. Run the executable and use the first option to copy files from the Shadowverse installation to the respective mods' folders.
-	4. Change the game language back to English.
-	5. Start the game to download data. (Again, not sure this is necessary.)
-5. Run the executable and use the second option to copy the modded files to your Shadowverse installation.
+4. If using a mod that requires files from the Japanese version of the game (i.e. the iDOLM@STER emblems/sleeves mod), use the tool to copy files from the Japanese version (see the next subsection); otherwise, skip this step.
+5. Run the executable and use the second option. This will copy the modded files to your Shadowverse installation.
 
 Note: The order in which mods are applied is not set, so if multiple mods alter the same file, it's best to keep only the desired version of the file and to remove all other versions from their mod folders.
+
+### Copying files from the Japanese version of the game
+
+This is only necessary for mods like the iDOLM@STER emblems/sleeves mod that require files from the Japanese version of the game. Most mods will not require you to do this.
+
+1. Change the game language to Japanese from Steam's properties window.
+2. Start the game to download data. (Not 100% sure this is necessary.)
+3. Run the executable and use the first option. This will copy files from the Shadowverse installation to the respective mods' folders.
+4. Change the game language back to English.
+5. Start the game to download data. (Again, not sure this is necessary.)
 
 ## Mods
 
@@ -33,7 +38,7 @@ A mod should be a folder with a "mod.json" file, which should include metadata f
 | description | A description of the mod |
 | author      | The author, in the format "Name (URL)" |
 | version     | A version number string for the mod |
-| copy_files  | An object specifying files to copy from the Japanese version of the game. Each key should be the name of a folder in the Shadowverse installation (or "." for the root), and each value should be an array of names of files to copy.<br><br>_(Most mods won't need this functionality; this primarily exists for the IM@S mod since the emblems/sleeves files change frequently. The Isabelle mod can be updated with this as well, but those files don't change nearly as often.)_ |
+| copy\_files  | An object specifying files to copy from the Japanese version of the game. Each key should be the name of a folder in the Shadowverse installation (or "." for the root), and each value should be an array of names of files to copy.<br><br>_(Most mods won't need this functionality; this primarily exists for the IM@S mod since the emblems/sleeves files change frequently. The Isabelle mod can be updated using this as well, but those files don't change nearly as often.)_ |
 
 Note: The "mod.json" file isn't strictly necessary right now for mods that don't use copy_files (i.e. most mods), since the other metadata aren't used anywhere, but it's good information to have, and it might be used in the future to display and select individual mods to install.
 
